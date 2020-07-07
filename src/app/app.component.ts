@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {of} from 'rxjs';
 
 @Component({
   selector: 'my-app',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Hello Angular from Stackblitz';
+  name = of('Angular from Stackblitz');
 }
